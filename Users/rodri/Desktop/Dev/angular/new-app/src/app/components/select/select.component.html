@@ -1,0 +1,19 @@
+<label> Selecione um carro: </label>
+    <select 
+        name="nationalities" 
+        required
+        ngModel 
+        [(ngModel)]="nationalityCode" 
+        #meuSelectFormControl="ngModel" 
+    >
+        <option value="" selected></option>
+        <option *ngFor="let nationality of nationalities"  
+          [value]="nationality.id">
+            {{nationality.description}}
+        </option>
+    </select> <span> Indice: {{nationalityCode}} </span>
+
+    <p> Valid : {{ meuSelectFormControl.valid }} </p>
+    <p> Touched : {{ meuSelectFormControl.touched }} </p>
+    <p> Dirty : {{ meuSelectFormControl.dirty }} </p>
+

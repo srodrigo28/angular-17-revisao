@@ -1,0 +1,37 @@
+<input 
+    id="html" name="group1"
+    type="radio"  value="html"
+    [(ngModel)]="radioSelected"
+/>
+<label for="html">HTML</label>
+
+<input 
+    id="css" name="group1"
+    type="radio" value="css"
+    [(ngModel)]="radioSelected"
+/>
+<label for="css">CSS</label>
+
+<input 
+    id="javascript" name="group1"
+    type="radio" value="javascript"
+    [(ngModel)]="radioSelected"
+/>
+<label for="javascript">JavaScript</label>
+<br>
+<button [disabled]="!radioSelected">Enviar 1</button>
+<button [disabled]="radioSelected === undefined || radioSelected === null || radioSelected === ''">Enviar2</button>
+<hr>
+<p>{{radioSelected}}</p>
+<style>
+    button{
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    button[disabled] {
+        padding: 5px;
+        border: none;
+        background-color: rgb(188, 214, 239);
+        color: white;
+    }
+</style>
