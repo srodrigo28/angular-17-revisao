@@ -34,10 +34,16 @@ ng generate component favorito
 ```
 
 ```5. Criando component
-ng g c components/cadastro
-ng g c components/radio-button
-ng g c components/app-checkbox
-ng g c components/input
+ng g c components/cadastro --skip-tests=true
+ng g c components/radio-button --skip-tests=true
+ng g c components/app-checkbox --skip-tests=true
+ng g c components/input --skip-tests=true
+ng g c components/form-group --skip-tests=true
+ng g c components/form-group2 --skip-tests=true
+```
+
+```Criando diretivas
+ng g directive invalid-text-valiator --skip-tests=true
 ```
 
 ```6. Criando serviço

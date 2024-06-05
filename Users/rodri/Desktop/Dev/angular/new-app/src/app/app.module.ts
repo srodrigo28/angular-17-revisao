@@ -9,6 +9,8 @@ import { SelectComponent } from './components/select/select.component';
 import { RadioButtonComponent } from './components/radio-button/radio-button.component';
 import { AppCheckboxComponent } from './components/app-checkbox/app-checkbox.component';
 import { FormComponent } from './components/form/form.component';
+import { FormGroupComponent } from './components/form-group/form-group.component';
+import { FormGroup2Component } from './components/form-group2/form-group2.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { FormComponent } from './components/form/form.component';
     SelectComponent,
     RadioButtonComponent,
     AppCheckboxComponent,
-    FormComponent
+    FormComponent,
+    FormGroupComponent,
+    FormGroup2Component
   ],
   imports: [
     BrowserModule,
