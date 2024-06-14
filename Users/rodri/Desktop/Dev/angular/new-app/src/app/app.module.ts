@@ -11,6 +11,7 @@ import { AppCheckboxComponent } from './components/app-checkbox/app-checkbox.com
 import { FormComponent } from './components/form/form.component';
 import { FormGroupComponent } from './components/form-group/form-group.component';
 import { FormGroup2Component } from './components/form-group2/form-group2.component';
+import { FormGroup3Component } from './components/form-group3/form-group3.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormGroup2Component } from './components/form-group2/form-group2.compon
     AppCheckboxComponent,
     FormComponent,
     FormGroupComponent,
-    FormGroup2Component
+    FormGroup2Component,
+    FormGroup3Component
   ],
   imports: [
     BrowserModule,

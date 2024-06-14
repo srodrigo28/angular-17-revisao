@@ -13,7 +13,7 @@ npm install -g @angular/cli
 ```verficar versão do angular
 ng version
 ```
-
+{}
 #### Criando projetos Angular 17 2024
 ```1. Criando app
 npx ng new cp-estilizacao --no-standalone
@@ -40,6 +40,7 @@ ng g c components/app-checkbox --skip-tests=true
 ng g c components/input --skip-tests=true
 ng g c components/form-group --skip-tests=true
 ng g c components/form-group2 --skip-tests=true
+ng g c components/form-group3 --skip-tests=true
 ```
 
 ```Criando diretivas
@@ -52,5 +53,4 @@ ng g s services/cadastro
 
 ```7. Criando model
 ng g m model/cadastro
-
 ```
